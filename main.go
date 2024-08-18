@@ -58,7 +58,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	//fmt.Println(weather)
 
 	location, current, hours := weather.Location, weather.Current, weather.Forecast.Forecastday[0].Hour
 	fmt.Printf(
